@@ -56,7 +56,6 @@ function getLoad(data, cycles = 1) {
         if (cyclesSet.has(rows.toString())) {
             console.log("SAME SIZE", cyclesSet.size, cycle,)
             isSetSizeTheSame = true;
-
             cyclesIteration = cycle;
         }
         cyclesSet.add(rows.toString());
